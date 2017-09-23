@@ -7,8 +7,22 @@ Foundamental operators:
         4) Precedence and the Order of Evaluation: 
         
 Some additional operators:
+        1) the sizeof operator and the size_t type: 
+        2) C has a typedef mechanism (discussed further in Chapter 14, "Structures and Other Data Forms") that lets you 
+           create an alias for an existing type. For example: typedef double real;
+        3) C99 goes a step further and supplies %zd as a printf() specifier for displaying a If your system doesn't implement
+           %zd , you can try using %u or %lu instead.
 
+Modulus operator: %;
 
+Increment and decrement operators: ++ and --;
+
+Expressions and statements: 
+        1) expression: An expression consists of a combination of operators and operands;
+        2) Every Expression Has a Value:
+        3) statements: Statements are the primary building blocks of a program. A program is a series of statements with some
+           necessary punctuation.
+        4) What makes a complete instruction? First, C considers any expression to be a statement if you append a semicolon;
 
 
 
