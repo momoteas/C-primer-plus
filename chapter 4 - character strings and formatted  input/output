@@ -27,6 +27,7 @@ Explore and exploiting printf() and scanf():
                     2> scanf() skips over whitespace characters to the first non-whitespace character when reading input;
                        It then keeps reading characters either until encountering whitespace or until encountering a character 
                        that doesn't fit the type being read.
+        3) summary: 
         
         
 
