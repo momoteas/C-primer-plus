@@ -1,0 +1,37 @@
+Character strings: an introduction:
+        1) double quotes; "";
+        2) type char arrays and the null character:
+                1> \0: in the last array position, is the null character;
+                2> example: char name[40];
+                3> no needing "&" when apply scanf();                
+        3) character versus strings: '' vs "";
+        4) the strlen() function: 
+                1> #include<string.h>; (or strings.h)
+                2> strlen() do not contain '\0'; sizeof() include '\0';
+                
+Constants and the C preprocess:                
+        1) define symbolic constant: #define PI 3.14159 (no semicolon) (capitalizing constants)
+
+The const modifier: the const keyword to convert a declaration for a vaviable into a declaration for a constant:
+                    const int MONTHS = 12 ;  // MONTHS a symbolic constant for 12
+                    this makes MONTHS into a read-only value;
+                    
+Manifest constants on the job:
+        1) The C header files limits.h and float.h supply detailed information about the size limits of
+           integer types and floating types, respectively;
+        
+Explore and exploiting printf() and scanf():
+        1) printf function: Table 4.3. Conversion Specifiers and the Resulting Printed Output
+        2) key concepts: 
+                    1> For scanf() , remember to prefix variables' names with the address operator ( & );
+                    2> scanf() skips over whitespace characters to the first non-whitespace character when reading input;
+                       It then keeps reading characters either until encountering whitespace or until encountering a character 
+                       that doesn't fit the type being read.
+        
+        
+
+
+
+
+
+                
