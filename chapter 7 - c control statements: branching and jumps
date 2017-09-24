@@ -1,0 +1,51 @@
+The if statement: 
+        1) adding else to the if statement: 
+        2) another example: introducing getchar() and putchar()
+                1> these functions deal only with characters, they are faster and more compact than the more general
+                scanf() and printf() functions. Also, note that they don't need format specifiers; that's because 
+                they work with characters only. Both functions are typically defined in the stdio.h file;
+        3) The ccttyyppee..hh Family of Character Functions: 
+        4) multiple choice: else if;
+        5) paring else with if: The rule is that an else goes with the most recent if unless braces indicate otherwise;
+        6) summary: using is statements for making choices:
+                1> keywords: if, else;
+                2> general comments: In each of the following forms, the statement can be either a simple statement 
+                   or a compound statement. A true expression means one with a nonzero value;
+                3> form 1:
+                        if ( expression )
+                             statement
+                4> form 2:
+                        if ( expression )
+                             statement1
+                        else
+                             statement2
+                5> form 3:
+                        if ( expression1 )
+                             statement1
+                        else if ( expression2 )
+                             statement2
+                        else
+                             statement3
+
+Let's get logical: 
+        1) C has three logical operators: &&, ||, !;
+        2) alternate spellings: the iso646.h header file; If you use this header file, you can use and instead 
+           of && , or instead of ||, and not instead of !;
+        3) Order of Evaluation: Logical expressions are evaluated from left to right;
+        
+A word-count program:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
