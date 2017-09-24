@@ -23,7 +23,30 @@ Expressions and statements:
         3) statements: Statements are the primary building blocks of a program. A program is a series of statements with some
            necessary punctuation.
         4) What makes a complete instruction? First, C considers any expression to be a statement if you append a semicolon;
+        5) side effects and sequence points: A sequence point is a point in program execution at which all side effects are 
+           evaluated before going on to the next step. In C, the semicolon in a statement marks a sequence point;
+        6) compound statements (blocks): 
+        7) style tips: popular style for positioning the braces for a block:
+                while (index++ < 10) {
+                   sam = 10*index + 2;
+                   printf("sam = %d \n", sam);
+                }
+                
+Type conversion:
+        1) The ranking of types, from highest to lowest, is long double , double , float , unsigned long long , long long , 
+           unsigned long , long , unsigned int , and int;
+        2) In any operation involving two types, both values are converted to the higher ranking of the two types;
+        3) In an assignment statement, the final result of the calculations is converted to the type of the variable being 
+           assigned a value;
+        4) When passed as function arguments, char and short are converted to int , and converted to double;
+        
+The cast operator: 
 
-
+Function with arguments: 
+        1) arguments VS parameters: the C99 documentation has decided to use the term argument for actual argument or actual 
+           parameter and the term parameter for formal parameter or formal argument;
+           
+Key concepts:
+        
 
 
