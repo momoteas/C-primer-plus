@@ -1,0 +1,19 @@
+1 Using const with formal parameters:
+    . It's important to understand that using const this way does not require that the original array be constant; it just says 
+    that the function has to treat the array as though it were constant.
+    . However, only the addresses of nonconstant data can be assigned to regular pointers: This is a reasonable rule. Otherwise, 
+    you could use the pointer to change data that was supposed to be constant;
+    。const *pointer: *pointer的内容被声明为常量； * const pointer：指针存储的地址被声明为常量，不可改变；
+    
+2 Pointers to Multidimensional Arrays:
+    . int (* pz)[2]; // pz points to an array of 2 ints
+      This statement says that pz is a pointer to an array of two int s. Why the parentheses? Well, [ ] has a higher precedence 
+    than * .
+
+
+
+
+
+
+
+
