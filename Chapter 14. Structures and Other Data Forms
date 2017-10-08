@@ -1,4 +1,17 @@
-
+1 Initializing a Structure:
+        . struct book library = {
+              "The Pirate and the Devious Damsel",
+              "Renee Vivotte",
+              1.95
+          };
+          you use a comma-separated list of initializers enclosed in braces;
+          
+2 Gaining Access to Structure Members:        
+        . The dot has higher precedence than the & here, so the expression is the same as &(library.float);
+        
+3 Designated Initializers for Structures:
+        . struct book surprise = { .value = 10.99};
+        
 
 
 
